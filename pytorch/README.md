@@ -16,6 +16,10 @@ docker run --user $(id -u):$(id -g) --rm -it -d -v `pwd`/src:/app --gpus all --n
 docker exec -it pytorch-mnoavx-dev bash
 ```
 
+## Example
+An example of training status and `nvidia-smi` command output.
+![Screenshot from 2021-01-24 11-50-46](https://user-images.githubusercontent.com/163333/105640670-8af37280-5e7f-11eb-9766-efdc3ddf58c9.png)
+
 ## Configuration tested
 In the following the configurations that have been tested so far
 
