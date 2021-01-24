@@ -1,3 +1,8 @@
+# data archives and models
+*.tar
+*.gz
+*.pth
+src/data/cifar-10-batches-py/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
